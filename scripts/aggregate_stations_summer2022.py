@@ -46,8 +46,8 @@ RATING_TIERS = ("veryBad", "bad", "fair", "good", "veryGood")
 COLOR_PERCENTILE_EDGES = (0.0, 0.25, 0.5, 0.75, 0.95)
 
 # Blend: historical keeps the majority when both sources have a cell.
-HIST_WEIGHT = 0.7
-MINED_WEIGHT = 0.3
+HIST_WEIGHT = 0.5
+MINED_WEIGHT = 0.5
 MATCH_RADIUS_M = 150.0
 
 
